@@ -1,15 +1,15 @@
 body {
-  font-family: Verdana;
+  font-family: "Verdana", sans-serif;
   background-color: black;
   text-align: center;
 }
 
 h1 {
   font-weight: normal;
-  font-size: 50 px;
+  font-size: 50px;
 }
 
-.link {
+.cta {
   color: aquamarine;
   font-size: 16px
 }
@@ -19,20 +19,21 @@ h2 {
   font-size: 42px
 }
 
-h1,
-h2 {
-  color: white;
+footer {
+  text-align: right;
 }
 
 #description {
   font-size: 21px;
 }
 
-.footer {
-  text-align: right;
+
+h1,
+h2 {
+  color: white;
 }
 
-#description,
-.footer {
+footer,
+#description {
     color: gray;
 }
